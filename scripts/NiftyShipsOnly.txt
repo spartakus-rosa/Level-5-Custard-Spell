@@ -1,0 +1,12 @@
+import crafttweaker.api.recipe.type.Recipe;
+import crafttweaker.api.world.Container;
+
+craftingTable.remove(<tag:items:minecraft:boats>);
+<recipetype:sawmill:woodcutting>.remove(<tag:items:minecraft:boats>);
+
+for recipe in (craftingTable.getRecipesByOutput(<tag:items:minecraft:boats>) as stdlib.List<Recipe<Container>>) {
+    println("> " + recipe.id);
+    for ingredient in recipe.ingredients {
+        println(ingredient.commandString);
+    }
+}
