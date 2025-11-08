@@ -1,0 +1,16 @@
+filename = 'spawnguard-forge-1.20.1-1.0.0.jar'
+name = 'SpawnGuard'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b1b1e409c75acf29551abe5ad5ce329928c7b0f3767708e4b63252a3d21b3df63bdfb42ec32a30638c8e0d8fbc2d51d6837eb514a4ee79fc210a17f29952f256'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XTGFtR67/versions/hfgSZm9h/spawnguard-forge-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'XTGFtR67'
+version = 'hfgSZm9h'

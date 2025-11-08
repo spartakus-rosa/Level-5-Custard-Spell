@@ -1,0 +1,16 @@
+filename = 'Nuke_bay-1.20.1-1.1.jar'
+name = 'Nuclear Bomb Bay'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '50d2fdade3403853f18a51cd24b4db0195b6f67cbe42815ae6a658bf3e339b68812c8ab3d6abb50e89037c854e3c4576fa0fe673480b4e4474798792dd3a8f9b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yw8a5K8E/versions/4fwBPLvN/Nuke_bay-1.20.1-1.1.jar'
+
+[update.modrinth]
+mod-id = 'Yw8a5K8E'
+version = '4fwBPLvN'

@@ -1,0 +1,16 @@
+filename = 'recipe_modification-neoforge-1.20.1-0.1.1.jar'
+name = 'Recipe Modification library'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '22b9edf9031d38ba35827268bb8ca8a1aedf49139ca32c74989ae43c426ac981e362719462abd4bb36cc521ba7014788673e418590d2f4b825b223aa5ad135b2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fRIu3HNp/versions/BOVeeCeF/recipe_modification-neoforge-1.20.1-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'fRIu3HNp'
+version = 'BOVeeCeF'

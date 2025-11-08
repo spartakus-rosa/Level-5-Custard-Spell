@@ -1,0 +1,16 @@
+filename = 'cookingforblockheads-forge-1.20.1-16.0.14.jar'
+name = 'Cooking for Blockheads'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3e74bb124e50bf224aab4bd2700eb2625a6f498ac2ee7ab6a655d5c6aae1d7088fd5cec3fe5bc9dc71e4f94f7c3c0f4ada134278f89cc3f4853c7b26ec475042'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vJnhuDde/versions/mYMjjpcD/cookingforblockheads-forge-1.20.1-16.0.14.jar'
+
+[update.modrinth]
+mod-id = 'vJnhuDde'
+version = 'mYMjjpcD'

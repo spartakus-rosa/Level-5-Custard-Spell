@@ -1,0 +1,16 @@
+filename = 'via_romana-2.1.1+1.20.1-forge.jar'
+name = 'Via Romana'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '54b1c435a8067044100aa3ef9f0848142f0b61433420ed7e1546c7054d7027419ecef9592d84a2043befbf4fdf50f78464a743b19620fc15975847294c2225a6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FVToiKwr/versions/qyu1ptRv/via_romana-2.1.1%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'FVToiKwr'
+version = 'qyu1ptRv'

@@ -1,0 +1,6 @@
+#Enable the spawn guard effect
+enableSpawnGuard = true
+#Duration of the mob attack protection effect in ticks applied to players when they join the world for the first time
+#Range: > 600
+mobAttackProtectionDuration = 6000
+

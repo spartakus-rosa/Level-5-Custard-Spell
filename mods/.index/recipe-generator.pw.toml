@@ -1,0 +1,16 @@
+filename = 'recipe_generator-1.0.0_beta-forge-1.20.1.jar'
+name = 'Recipe Generator'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'fa558969d0794fc29e434880b00423fb9d8c8b33c9958c6f8dc990f88d2f82a7c5e6b516a110168243639e32c63760cfb16ee097ffa40f9b4aa8bb3dc38d3be7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uQorKjjW/versions/TrTrev2z/recipe_generator-1.0.0_beta-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'uQorKjjW'
+version = 'TrTrev2z'
