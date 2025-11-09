@@ -145,8 +145,8 @@
 	    ["minecraft:ice", -0.15, 4, "mc", 0.3, "", "", 0.05],
 	    ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.3],
 	    ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
-	    ["biomeswevegone:black_ice, -0.25, 4, "mc", 1.4, "", "", -0.5"],
-	    ["biomeswevegone:packed_black_ice, -0.35, 4, "mc", 1.4, "", "", -0.7"],
+	    ["biomeswevegone:black_ice", -0.25, 4, "mc", 1.4, "", "", -0.5],
+	    ["biomeswevegone:packed_black_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
 	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7]
 	]
 	#─────────────────────────────────────────────────────────────────────────
