@@ -1,0 +1,4 @@
+mods/.connector/*
+logs/
+world/*
+!world/datapacks
