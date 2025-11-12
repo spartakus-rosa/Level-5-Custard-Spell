@@ -147,7 +147,8 @@
 	    ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
 	    ["biomeswevegone:black_ice", -0.25, 4, "mc", 1.4, "", "", -0.5],
 	    ["biomeswevegone:packed_black_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
-	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7]
+	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7],
+	    ["farmersdelight:stove", 0.1, 5, "mc", 0.9, "lit=true", " ", 8]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect
@@ -176,7 +177,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The default temperature of water
 	# └── Format: [temperature, *units]
-	"Default Water Temperature" = [-0.2222222222222222, "f"]
+	"Default Water Temperature" = [-0.0049382716049382715, "f"]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum soak level a player can reach from rain alone (0.0 - 1.0)
 	#Range: 0.0 ~ Infinity

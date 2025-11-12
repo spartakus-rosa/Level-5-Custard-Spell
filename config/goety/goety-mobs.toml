@@ -25,7 +25,7 @@
 		reaperSpawnMaxCount = 1
 		#Spawn Weight for Reaper, Default: 10
 		#Range: > 0
-		reaperSpawnWeight = 10
+		reaperSpawnWeight = 5
 
 	[Spawning.Maverick]
 		#Spawn maximum group count for Maverick, must be equal or higher than min count, Default: 1
@@ -33,7 +33,7 @@
 		maverickSpawnMaxCount = 1
 		#Spawn Weight for Maverick, Default: 5
 		#Range: > 0
-		maverickSpawnWeight = 5
+		maverickSpawnWeight = 2
 		#Spawn minimum group count for Maverick, Default: 1
 		#Range: > 1
 		maverickSpawnMinCount = 1
@@ -41,7 +41,7 @@
 	[Spawning."Muck Wraith"]
 		#Spawn Weight for Muck Wraith, Default: 20
 		#Range: > 0
-		muckWraithSpawnWeight = 20
+		muckWraithSpawnWeight = 8
 		#Spawn minimum group count for Muck Wraith, Default: 1
 		#Range: > 1
 		muckWraithSpawnMinCount = 1
@@ -55,7 +55,7 @@
 		wightSpawnFreq = 24000
 		#Spawn Chance for Wights spawning near the Player every Spawn Frequency, the lower the more likelier, Default: 10
 		#Range: > 1
-		wightSpawnChance = 10
+		wightSpawnChance = 6
 		#Whether Wights can spawn near players that have a high amount of Soul Energy, Default: true
 		wightSpawn = true
 
@@ -68,7 +68,7 @@
 		webSpiderSpawnMaxCount = 4
 		#Spawn Weight for Web Spiders, Default: 40
 		#Range: > 0
-		webSpiderSpawnWeight = 40
+		webSpiderSpawnWeight = 20
 
 	[Spawning.Necromancer]
 		#Spawn maximum group count for Necromancer, must be equal or higher than min count, Default: 1
@@ -92,7 +92,7 @@
 		icySpiderSpawnMinCount = 4
 		#Spawn Weight for Icy Spiders, Default: 40
 		#Range: > 0
-		icySpiderSpawnWeight = 40
+		icySpiderSpawnWeight = 20
 
 	[Spawning.Warlock]
 		#Spawn minimum group count for Warlock, Default: 1
@@ -100,7 +100,7 @@
 		warlockSpawnMinCount = 1
 		#Spawn Weight for Warlock, Default: 5
 		#Range: > 0
-		warlockSpawnWeight = 5
+		warlockSpawnWeight = 3
 		#Spawn maximum group count for Warlock, must be equal or higher than min count, Default: 1
 		#Range: > 1
 		warlockSpawnMaxCount = 1
@@ -111,7 +111,7 @@
 		wraithSpawnMaxCount = 1
 		#Spawn Weight for Wraith, Default: 20
 		#Range: > 0
-		wraithSpawnWeight = 20
+		wraithSpawnWeight = 8
 		#Spawn minimum group count for Wraith, Default: 1
 		#Range: > 1
 		wraithSpawnMinCount = 1
@@ -119,7 +119,7 @@
 	[Spawning.Heretic]
 		#Spawn Weight for Heretic, Default: 5
 		#Range: > 0
-		hereticSpawnWeight = 5
+		hereticSpawnWeight = 3
 		#Spawn minimum group count for Heretic, Default: 1
 		#Range: > 1
 		hereticSpawnMinCount = 1
