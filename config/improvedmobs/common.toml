@@ -229,13 +229,13 @@
 	"Weapon Chance" = 0.2
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Weapon Chance Add" = 0.80000001192092896
+	"Weapon Chance Add" = 0.800000011920929
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
-	"Enchanting Chance" = 0.10000000298023224
+	"Enchanting Chance" = 0.10000000298023223
 	#Adds additional x*difficulty% to base enchanting chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Enchanting Addition" = 0.40000000298023224
+	"Enchanting Addition" = 0.40000000298023225
 	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
 	"Enchanting Calc" = ["5.0-5-10", "15.0-5-15", "25.0-10-17", "35.0-15-25", "45.0-20-30", "50.0-30-40"]
 	#Blacklist enchantments from being applied to equipments
@@ -247,7 +247,7 @@
 	"Item Equip Chance" = 0.1
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Item Chance add" = 0.40000000298023224
+	"Item Chance add" = 0.40000000298023225
 	#Should mobs drop the armor equipped through this mod? Will not change drops if the mob obtained the armor through other means (e.g. vanilla)
 	"Should drop equipment" = false
 

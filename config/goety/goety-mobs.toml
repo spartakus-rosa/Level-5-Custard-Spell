@@ -198,6 +198,8 @@
 	redstoneMonstrosityLeafBreak = true
 	#Servants, when on staying mode, will load chunks around it, Default: true
 	stayingServantChunkLoad = true
+	#Servants, when on following mode, will load chunks around it, Default: true
+	followingServantChunkLoad = true
 	#Enable Redstone Cubes block detection mechanic, Default: true
 	RedstoneCubeBlockFind = true
 	#Mobs will automatically be hostile to servants, if servant is hostile towards the mob, Default: true
@@ -211,11 +213,15 @@
 	maxSlimeSize = 4
 	#Whether armor wearing Raider Servants can be equipped with Armor, Default: true
 	raiderServantWearArmor = true
+	#Servants, when on guarding mode, will load chunks around it, Default: true
+	guardingServantChunkLoad = true
 	#How many seconds a servant can't heal through Soul Energy after being injured, Default: 5
 	#Range: > 0
 	servantHealHalt = 5
 	#Whether wearing Nameless Crown and/or Nameless Cape gives massive debuffs to non-undead servant, Default: false
 	namelessSetDebuff = false
+	#Whether Servants be equipped with Carved Pumpkins, which would allow Servants to not be affected by sunlight, Default: false
+	servantsCanWearPumpkin = false
 
 	[Servants."Illager Servants"]
 		#Whether every Illager Servant type can breed or only Neollagers can, Default: true
@@ -230,10 +236,14 @@
 		evokerServantRavagedCooldown = 1200
 		#Whether Illagers will take certain items from the ground, Default: true
 		illagerServantPickUpDrops = true
+		#Whether Illagers chunk load areas around themselves and their raid position when raiding, Default: true
+		illagerServantChunkLoadRaid = true
 		#Whether Illagers will instantly store drops from their kills into their inventory, before throwing them back to their owner or store them in bounded chest, Default: true
 		illagerServantCollectLoot = true
 		#Whether every Illagers can open doors when raiding instead of just Vindicators, Default: true
 		illagerServantAllOpenDoors = true
+		#Whether Illagers chunk load areas around themselves and their target when hunting down with Taglock Kit, Default: true
+		illagerServantChunkLoadMark = true
 		#How many trained Illagers can reduce training time for training Illagers, Default: 2
 		#Range: > 0
 		illagerServantMaxMentors = 2
@@ -265,6 +275,8 @@
 		#How much Soul Energy it cost per second for a Natural Servant to heal, Default: 1
 		#Range: > 0
 		naturalMinionHealCost = 1
+		#Whether Black Beasts chunk load areas around themselves and their target when hunting down with Taglock Kit, Default: true
+		blackBeastChunkLoad = true
 
 	[Servants."Undead Servants"]
 		#Whether Undead Servants burn in Sunlight if not wearing helmet, Default: true
@@ -652,6 +664,12 @@
 		[Textures."Summoned Mobs"."Squall Golem"]
 			#If Squall Golems have custom textures, Default: true
 			squallGolemTexture = true
+
+		[Textures."Summoned Mobs"."Raider Servants"]
+			#If Witch Servants have custom textures, Default: true
+			witchServantTexture = true
+			#If Maverick Servants have custom textures, Default: true
+			maverickServantTexture = true
 
 		[Textures."Summoned Mobs"."Guardian Servants"]
 			#If Guardian Servants have custom textures, Default: true
