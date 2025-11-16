@@ -1,7 +1,7 @@
 
 [general]
 	#Set to true to have only Vanilla-based shields enabled. Note that this removes mod-based Shield recipes from the game!
-	vanilla_only = false
+	vanilla_only = true
 	#Will force the uncraftable shield tooltip (highlighted in red) that show on some shields to not appear. Useful for modpack makers who wish to change recipes
 	force_disable_uncraftable_tooltips = false
 	#Durability Multiplier for Tower Shield variants compared to their basic Shield counterparts
@@ -69,77 +69,77 @@
 		#Range: 0 ~ 100000
 		durability = 320
 		#Set to true to disable Tin Shields
-		disable = false
+		disable = true
 
 	[modded_common.bronze]
 		#Durability for Bronze Shields
 		#Range: 0 ~ 100000
 		durability = 680
 		#Set to true to disable Bronze Shields
-		disable = false
+		disable = true
 
 	[modded_common.steel]
 		#Durability for Steel Shields
 		#Range: 0 ~ 100000
 		durability = 800
 		#Set to true to disable Steel Shields
-		disable = false
+		disable = true
 
 	[modded_common.silver]
 		#Durability for Silver Shields
 		#Range: 0 ~ 100000
 		durability = 216
 		#Set to true to disable Silver Shields
-		disable = false
+		disable = true
 
 	[modded_common.electrum]
 		#Durability for Electrum Shields
 		#Range: 0 ~ 100000
 		durability = 320
 		#Set to true to disable Electrum Shields
-		disable = false
+		disable = true
 
 	[modded_common.lead]
 		#Durability for Lead Shields
 		#Range: 0 ~ 100000
 		durability = 480
 		#Set to true to disable Lead Shields
-		disable = false
+		disable = true
 
 	[modded_common.nickel]
 		#Durability for Nickel Shields
 		#Range: 0 ~ 100000
 		durability = 420
 		#Set to true to disable Nickel Shields
-		disable = false
+		disable = true
 
 	[modded_common.invar]
 		#Durability for Invar Shields
 		#Range: 0 ~ 100000
 		durability = 720
 		#Set to true to disable Invar Shields
-		disable = false
+		disable = true
 
 	[modded_common.constantan]
 		#Durability for Constantan Shields
 		#Range: 0 ~ 100000
 		durability = 640
 		#Set to true to disable Constantan Shields
-		disable = false
+		disable = true
 
 	[modded_common.platinum]
 		#Durability for Platinum Shields
 		#Range: 0 ~ 100000
 		durability = 1536
 		#Set to true to disable Platinum Shields
-		disable = false
+		disable = true
 
 	[modded_common.aluminum]
 		#Durability for Aluminum Shields
 		#Range: 0 ~ 100000
 		durability = 720
 		#Set to true to disable Aluminum Shields
-		disable = false
+		disable = true
 
 [modded_botania]
 

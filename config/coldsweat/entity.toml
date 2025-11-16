@@ -15,7 +15,12 @@
 	# A value of 0 provides no insulation; 1 provides full insulation
 	# └── Format: [["entity_id", coldResistance, heatResistance], [...], etc]
 	# ⌄ 
-	"Insulated Mounts" = []
+	"Insulated Mounts" = [
+	    ["smallships:cog", 0.2, 0.2],
+	    ["smallships:brigg", 0.3, 0.3],
+	    ["smallships:drakkar", 0.75, 0],
+	    ["smallships:galley", 0, 0.75]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines temperature-emitting properties for entities
 	# ├── Format: [["entity_id", temperature, range, *units, *tempLimit], [...], etc]
@@ -26,7 +31,11 @@
 	# • *tempLimit: The maximum world temperature at which this entity temp will have any effect.
 	#   (Represents the minimum temp if the entity temp is negative)
 	# ⌄ 
-	"Entity Temperatures" = []
+	"Entity Temperatures" = [
+	    ["smallships:cog, smallships:brigg", 5, 10, "C", 10],
+	    ["smallships:drakkar", 10, 10, "C", 10],
+	    ["smallships:galley", -10, 10, "C", 35]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines entities that are affected by temperature and the climates they can live in
 	# ├── Format: [["entity_id", minTemp, maxTemp, *rate, *units], [...], etc]
@@ -36,7 +45,18 @@
 	# • *rate: A multiplier to the rate at which the entity overheats or freezes, based on players' rate
 	# • *units: The units used for the min/max temperature values (MC, F, or C). Defaults to MC
 	# ⌄ 
-	"Entity Climate Settings" = [["minecraft:chicken", 10, 10, 0.6, "F"], ["minecraft:pig", 0, 0, 0.5, "F"], ["minecraft:cow", 0, 20, 0.2, "F"], ["minecraft:mooshroom", 0, 20, 0.2, "F"], ["minecraft:sheep", -20, -10, 0.3, "F"], ["minecraft:goat", -40, -15, 0.4, "F"], ["minecraft:horse", -5, 10, 0.3, "F"], ["minecraft:donkey", -5, 10, 0.3, "F"], ["minecraft:mule", -5, 10, 0.3, "F"], ["minecraft:llama", -10, 0, 0.4, "F"]]
+	"Entity Climate Settings" = [
+	    ["minecraft:chicken", 10, 10, 0.6, "F"],
+	    ["minecraft:pig", 0, 0, 0.5, "F"],
+	    ["minecraft:cow", 0, 20, 0.2, "F"],
+	    ["minecraft:mooshroom", 0, 20, 0.2, "F"],
+	    ["minecraft:sheep", -20, -10, 0.3, "F"],
+	    ["minecraft:goat", -40, -15, 0.4, "F"],
+	    ["minecraft:horse", -5, 10, 0.3, "F"],
+	    ["minecraft:donkey", -5, 10, 0.3, "F"],
+	    ["minecraft:mule", -5, 10, 0.3, "F"],
+	    ["minecraft:llama", -10, 0, 0.4, "F"]
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the temperature system for entities
 	# If disabled, entities will not be harmed by temperature
@@ -72,12 +92,48 @@
 	# • biome_id: The ID of the biome, e.g. "minecraft:jungle"
 	# • weight: The likelihood for the entity to spawn compared to other entities, higher values mean more common spawns
 	# ⌄ 
-	"Chameleon Spawn Biomes" = [["minecraft:bamboo_jungle", 80], ["minecraft:jungle", 80], ["minecraft:sparse_jungle", 35], ["minecraft:desert", 1], ["biomeswevegone:atacama_outback", 2], ["biomeswevegone:lush_stacks", 8], ["biomeswevegone:crag_gardens", 40], ["biomeswevegone:jacaranda_jungle", 30], ["biomeswevegone:fragment_jungle", 60], ["biomeswevegone:tropical_rainforest", 60], ["biomeswevegone:mojave_desert", 3], ["biomeswevegone:windswept_desert", 2], ["biomeswevegone:red_rock_valley", 1], ["biomeswevegone:ironwood_gour", 1], ["biomeswevegone:rugged_badlands", 1], ["biomeswevegone:sierra_badlands", 2], ["biomeswevegone:sierra_badlands", 2]]
+	"Chameleon Spawn Biomes" = [
+	    ["minecraft:bamboo_jungle", 80],
+	    ["minecraft:jungle", 80],
+	    ["minecraft:sparse_jungle", 35],
+	    ["minecraft:desert", 1],
+	    ["biomeswevegone:atacama_outback", 2],
+	    ["biomeswevegone:lush_stacks", 8],
+	    ["biomeswevegone:crag_gardens", 40],
+	    ["biomeswevegone:jacaranda_jungle", 30],
+	    ["biomeswevegone:fragment_jungle", 60],
+	    ["biomeswevegone:tropical_rainforest", 60],
+	    ["biomeswevegone:mojave_desert", 3],
+	    ["biomeswevegone:windswept_desert", 2],
+	    ["biomeswevegone:red_rock_valley", 1],
+	    ["biomeswevegone:ironwood_gour", 1],
+	    ["biomeswevegone:rugged_badlands", 1],
+	    ["biomeswevegone:sierra_badlands", 2],
+	    ["biomeswevegone:sierra_badlands", 2]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the biomes that Chameleons can spawn in
 	# └── Format: [["biome_id", weight], [...], etc]
 	# • biome_id: The ID of the biome, e.g. "minecraft:jungle"
 	# • weight: The likelihood for the entity to spawn compared to other entities, higher values mean more common spawns
 	# ⌄ 
-	"Goat Spawn Biomes" = [["minecraft:frozen_peaks", 8], ["minecraft:jagged_peaks", 8], ["minecraft:snowy_slopes", 8], ["minecraft:meadow", 3], ["minecraft:windswept_hills", 6], ["minecraft:windswept_forest", 6], ["minecraft:windswept_gravelly_hills", 4], ["minecraft:grove", 5], ["minecraft:stony_peaks", 8], ["biomeswevegone:howling_peaks", 6], ["biomeswevegone:canadian_shield", 3], ["biomeswevegone:shattered_glacier", 2], ["biomeswevegone:dacite_ridges", 5], ["biomeswevegone:zelkova_forest", 3], ["biomeswevegone:frosted_coniferous_forest", 3], ["biomeswevegone:skyrise_vale", 5], ["biomeswevegone:coconino_meadow", 3]]
+	"Goat Spawn Biomes" = [
+	    ["minecraft:frozen_peaks", 8],
+	    ["minecraft:jagged_peaks", 8],
+	    ["minecraft:snowy_slopes", 8],
+	    ["minecraft:meadow", 3],
+	    ["minecraft:windswept_hills", 6],
+	    ["minecraft:windswept_forest", 6],
+	    ["minecraft:windswept_gravelly_hills", 4],
+	    ["minecraft:grove", 5],
+	    ["minecraft:stony_peaks", 8],
+	    ["biomeswevegone:howling_peaks", 6],
+	    ["biomeswevegone:canadian_shield", 3],
+	    ["biomeswevegone:shattered_glacier", 2],
+	    ["biomeswevegone:dacite_ridges", 5],
+	    ["biomeswevegone:zelkova_forest", 3],
+	    ["biomeswevegone:frosted_coniferous_forest", 3],
+	    ["biomeswevegone:skyrise_vale", 5],
+	    ["biomeswevegone:coconino_meadow", 3]
+	]
 

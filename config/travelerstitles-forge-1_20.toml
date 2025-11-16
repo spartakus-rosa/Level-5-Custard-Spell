@@ -23,7 +23,7 @@
 		# Useful for preventing the player from being spammed if they are traveling quickly.
 		# 20 ticks = 1 second.
 		# Default: 80
-		"Text Cooldown Time" = 80
+		"Text Cooldown Time" = 60
 		# The text's default RGB color.
 		# Default: "ffffff"
 		"Default Text Color" = "ffffff"
