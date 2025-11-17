@@ -81,7 +81,7 @@ schematicVersion = 5
 		[Ship.Cog.Modifier]
 			#Specify biome type for the Cog. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierCogBiome = "COLD"
+			shipModifierCogBiome = "NONE"
 
 	[Ship.Brigg]
 
@@ -109,7 +109,7 @@ schematicVersion = 5
 		[Ship.Brigg.Modifier]
 			#Specify biome type for the Brigg. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierBriggBiome = "COLD"
+			shipModifierBriggBiome = "NEUTRAL"
 
 	[Ship.Galley]
 
